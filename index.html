@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>길동이의 돌잔치에 초대합니다</title>
+    <title>정수기의 돌잔치에 초대합니다</title>
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section id="title">
+        <header>
+            <div class="title-group">
+                <img src="./images/logo.png" alt="logo" class="logo">
+                <h1>'정수기'<span>의 첫번째 생일</span></h1>
+            </div>
+        </header>
+        <div class="title-photo">
+            <img src="./images/title-photo.jpg" alt="title-photo">
+        </div>
+        <div class="title-footer">
+            <div class="title-footer-group">
+                <p class="date">2022년 5월 7일 토요일 오후 2시</p>
+                <p class="address">김포시 구래동 아스타프라자 6층</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 초대글 영역 -->
+    <section id="invitation">
+        <div class="bar"></div>
+        <h2>첫번째 생일에<br>
+            초대합니다</h2>
+        <p>품에 보듬어 안기도 조심스러웠는데<br>
+            어느덧 건강하게 자라<br>
+            첫 생일을 맞이하였습니다.
+        </p>
+        <p>이렇게 예쁘고 건강하게 자라준것은<br>
+            항상 관심과 사랑으로 지켜주신<br>
+            여러분의 사랑이라고 생각합니다.
+        </p>
+        <p>조촐하지만 정성어린 자리를 마련하였사오<br>니
+            꼭 참석하시어 박정수기의 앞날을 축복해 주십시오.</p>
+        <div class="send-msg-box">
+            <a class="send-btn" href="tel:010-4843-7711">
+                <i><img src="./images/mom-icon.svg" alt="엄마에게 전화하기"></i>
+                <span>박세은</span>
+            </a>
+            <a class="send-btn" href="tel:010-9106-4202">
+                <i><img src="./images/fa-icon.svg" alt="아빠에게 전화하기"></i>
+                <span>서동희</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 갤러리 영역 -->
+    <section id="gallery">
+        <div class="bar"></div>
+        <h2>포토갤러리</h2>
+        <figure>
+            <div class="main-photo">
+                <img src="./images/photo1.jpg" alt="대표이미지">
+            </div>
+            <ul class="img-list">
+                <li>
+                    <a href="#">
+                        <img src="./images/photo1.jpg" alt="photo1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/photo2.jpg" alt="photo2">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/photo3.jpg" alt="photo3">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/photo4.jpg" alt="photo4">
+                    </a>
+                </li>
+            </ul>
+        </figure>
+    </section>
+
+    <!-- 오시는 길 -->
+    <section id="location">
+        <div class="bar"></div>
+        <h2>오시는 길</h2>
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.6696603498826!2d126.63300138000162!3d37.633457528148924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c80c669a8dd57%3A0xc2b4bcbc0fd76706!2zKOyjvCnrhbjruJTroIjsiqTrjZTsv6HsiqQ!5e0!3m2!1sko!2skr!4v1645145187631!5m2!1sko!2skr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p>경기도 김포시 구래동 6883-2 아스타프라자 6층<br>
+            TEL 010.7191.7711</p>
+    </section>
+
+    <!-- 축하해주기 -->
+    <section id="congrat">
+        <div class="bar"></div>
+        <h2>축하해주기</h2>
+        <div class="contact-box-wrap">
+            <div class="contact-box">
+                <div class="icon-box">
+                    <a href="tel:010-4843-7711"><img src="./images/phone-icon.svg" alt="전화하기"></a>
+                    <a href="sms:010-4843-7711"><img src="./images/mail-icon.svg" alt="문자하기"></a>
+                </div>
+                <span>엄마에게 연락하기</span>
+            </div>
+            <div class="contact-box">
+                <div class="icon-box">
+                    <a href="tel:010-9106-4202"><img src="./images/phone-icon.svg" alt="전화하기"></a>
+                    <a href="sms:010-9106-4202"><img src="./images/mail-icon.svg" alt="문자하기"></a>
+                </div>
+                <span>아빠에게 연락하기</span>
+            </div>
+        </div> <!-- contact-box-wrap -->
+        
+    </section>
+    <footer>
+    <div class="sns-group">
+        <a href="./" class="icon-link">
+            <img src="./images/kakaotalk-icon.svg" alt="카톡">
+        <div>카카오톡</div>
+        </a>
+        <a href="./" class="icon-link">
+            <img src="./images/facebook-icon.svg" alt="페북">
+        <div>페이스북</div>
+        </a>
+        <a href="https://blog.naver.com/2senieni" class="icon-link">
+            <img src="./images/blog-icon.svg" alt="블로그">
+        <div>블로그</div>
+        </a>
+    </div>
+    </footer>
 </body>
+
 </html>
